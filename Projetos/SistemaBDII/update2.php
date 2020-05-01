@@ -18,8 +18,8 @@ try {
 $msql = "UPDATE `curso` SET `id_professor` = '$id_professor', `nome_curso` = '$nome', mensalidade = '$mensalidade' WHERE `id_curso` = $id_registro";
 $stmt = $pdo->prepare($msql);
 
-$stmt->bindParam($id_professor, $_REQUEST['id_professor']);
-$stmt->bindParam($nome, $_REQUEST['nome_curso']);
+$stmt->bindParam($id_professor, addslashes($_REQUEST['id_professor']));
+$stmt->bindParam($nome, addslashes($_REQUEST['nome_curso']));
 $stmt->execute();
 
     echo "<script type=text/javascript>alert('Operação realizada com sucesso!');window.location='alterarDados.php?tipo=curso'</script>";

@@ -15,7 +15,7 @@ function fonte(e) {
 	elemento.css("fontSize", fonte);
 	
 }
-
+/*
 function testefonte(e){
     var elemento = document.getElementsByTagName("p");
     var i;
@@ -35,7 +35,7 @@ function testefonte(e){
     elemento[i].style.fontSize = fonte;
 }
 }
-
+*/
    /*Limite de caracteres na mensagem*/
    function limite_textarea(valor) {
     quant = 500;

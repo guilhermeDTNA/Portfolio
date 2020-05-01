@@ -9,7 +9,7 @@
         <meta name="author" content="">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="shortcut icon" href="img/favorite.jpg" />
-        <title>Portfolio - Guilherme Rocha Leite</title>
+        <title>Portfólio - Guilherme Rocha Leite</title>
         
         <!-- Bootstrap core CSS -->
         <!--
@@ -78,9 +78,6 @@
                         <a class="nav-link js-scroll-trigger" href="#habilidades">Habilidades</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#interesses">Interesses</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#projetos">Projetos</a>
                     </li>
                     <li class="nav-item">
@@ -103,13 +100,13 @@
                         <span class="text-primary">Rocha Leite</span>
                     </h1>
                     
-                    <div class="acessibilidade subheading mb-4">Diamantina/MG ·  <i class="fab fa-whatsapp" title="Solicitar nº Whatsapp" onclick="redir()" ></i> · <a class="acessibilidade email-home" href="mailto:gleite98@gmail.com">gleite98@gmail.com</a>
-                    </div>
+                    <div class="acessibilidade subheading mb-4">Diamantina/MG ·  <i class="img-whats fab fa-whatsapp" title="Solicitar nº Whatsapp" onclick="redir()" ></i> · <a class="acessibilidade email-home" href="mailto:gleite98@gmail.com">gleite98@gmail.com</a>
                     
+                    </div>
                     
                     <p class="acessibilidade">Nasci na manhã fria e diamantinense de 24 de fevereiro de 1998. Quando menino, eu queria ser médico. Não deu certo. Com o passar do tempo fui trilhando meu caminho na computação. </p>
                     <p class="acessibilidade">Fiz um curso de iniciação à computação na minha infância, depois de anos vieram um profissionalizante e um técnico ainda na área. Mas nem por isso deixei de lado as outras áreas, tendo concluído um curso básico de artes plásticas e um de brigada de incêndio. Deste, ainda tenho o diploma guardado numa pasta.</p>
-                    <p class="acessibilidade">Aos 19 servi ao Exército, onde desempenhei diversas atividades, inclusive ligadas manutenção de software, e aprendi valores que não pretendo esquecer jamais. Atualmente, sou discente do 7º período do curso de Sistemas de Informação na UFVJM e estagiário na Diretoria de Comunicação Social.</p>
+                    <p class="acessibilidade">Aos 19 servi ao Exército, onde desempenhei diversas atividades, inclusive ligadas manutenção de software, e aprendi valores que não pretendo esquecer jamais. Atualmente, sou discente do 9º período do curso de Sistemas de Informação na UFVJM e estagiário na Diretoria de Comunicação Social.</p>
                     <p class="acessibilidade">Para a minha vida, tenho como principal fonte de inspiração o ex-piloto Ayrton Senna e o meu avô Francisco, que, mesmo não estando mais aqui, ainda me mostram que o caminho para o sucesso deve se basear na honestidade e na dedicação.</p>
                     
                     <br>
@@ -127,7 +124,7 @@
                             <i class="fab fa-facebook-f" title="Facebook"></i>
                         </a>
                         <a href="http://lattes.cnpq.br/2493688556132767" target="_blank">
-                            <i class="fab " title="Lattes"><img src="img/lattes.jpg" width="25px" heigh="30px" ></i>
+                            <i class="fab " title="Lattes"><img src="img/lattes-1.jpg" width="25px" heigh="30px" ></i>
                         </a>
                     </div>
                 </div>
@@ -144,19 +141,6 @@ include_once 'menu.php';
                 <div class="w-100">
                     <h2 class="mb-5">Experiência</h2>
                     
-                    
-                     <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="resume-content">
-                            <h3 class="mb-0 acessibilidade">Soldado no Exército Brasileiro</h3>
-                            <div class="subheading mb-3 acessibilidade">Realização de diversas atividades</div>
-                                <p class="acessibilidade">Recruta no período de 09 meses no Tiro de Guerra 04-005 em 2017, onde também fui um dos responsáveis pelo cadastramento de informações do alistamento militar, além de manutenção de software nos computadores da repartição.</p>
-                                <p class="acessibilidade">Na oportunidade, recebi o certificado de honra ao mérito.</p>
-                        
-                        </div>
-                        <div class="resume-date text-md-right">
-                            <span class="text-primary">Março 2017 - Novembro 2017</span>
-                        </div>
-                    </div>
                         
 
                     <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -172,6 +156,19 @@ include_once 'menu.php';
                             <span class="text-primary">Fevereiro 2019 - Presente</span>
                         </div>
                     </div>
+                    
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0 acessibilidade">Soldado no Exército Brasileiro</h3>
+                            <div class="subheading mb-3 acessibilidade">Realização de diversas atividades</div>
+                                <p class="acessibilidade">Recruta no período de 09 meses no Tiro de Guerra 04-005 em 2017, onde também fui um dos responsáveis pelo cadastramento de informações do alistamento militar, além de manutenção de software nos computadores da repartição.</p>
+                                <p class="acessibilidade">Na oportunidade, recebi o certificado de honra ao mérito.</p>
+                        
+                        </div>
+                        <div class="resume-date text-md-right">
+                            <span class="text-primary">Março 2017 - Novembro 2017</span>
+                        </div>
+                    </div>
 
                 </div>
 
@@ -182,6 +179,31 @@ include_once 'menu.php';
             <section class="resume-section p-3 p-lg-5 d-flex align-items-center acessibilidade" id="educacao">
                 <div class="w-100">
                     <h2 class="mb-5">Escolaridade</h2>
+                    
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0 acessibilidade">Universidade Federal dos Vales do Jequitinhonha e Mucuri (UFVJM)</h3>
+                            <div class="subheading mb-3 acessibilidade">Bacharelado em Sistemas de Informação</div>
+                            <p class="acessibilidade">Em andamento.</p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                            <span class="text-primary">Abril 2016 - Presente</span>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0 acessibilidade">UAITEC</h3>
+                            <div class="subheading mb-3">Profissionalizante em Programação de Dispositivos Móveis</div>
+                            <div>Noções básicas de programação mobile e ferramentas para construção de aplicativos.</div>
+                            <p class="acessibilidade"></p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                            <span class="text-primary">Março 2017 - Julho 2017</span>
+                        </div>
+                    </div>
 
                     <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="resume-content">
@@ -195,29 +217,7 @@ include_once 'menu.php';
                             <span class="text-primary">Julho 2013 - Dezembro 2014</span>
                         </div>
                     </div>
-
-                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 acessibilidade">
-                        <div class="resume-content">
-                            <h3 class="mb-0 acessibilidade">UAITEC</h3>
-                            <div class="subheading mb-3">Profissionalizante em Programação de Dispositivos Móveis</div>
-                            <div>Noções básicas de programação mobile e ferramentas para construção de aplicativos.</div>
-                            <p class="acessibilidade"></p>
-                        </div>
-                        <div class="resume-date text-md-right">
-                            <span class="text-primary">Março 2017 - Julho 2017</span>
-                        </div>
-                    </div>
-
-                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-                        <div class="resume-content">
-                            <h3 class="mb-0 acessibilidade">Universidade Federal dos Vales do Jequitinhonha e Mucuri (UFVJM)</h3>
-                            <div class="subheading mb-3 acessibilidade">Bacharelado em Sistemas de Informação</div>
-                            <p class="acessibilidade">Em andamento.</p>
-                        </div>
-                        <div class="resume-date text-md-right">
-                            <span class="text-primary">Abril 2016 - Presente</span>
-                        </div>
-                    </div>
+                    
 
                 </div>
             </section>
@@ -271,23 +271,6 @@ include_once 'menu.php';
                 </div>
             </section>
 
-            <hr class="m-0">
-
-            <section class="resume-section p-3 p-lg-5 d-flex align-items-center acessibilidade" id="interesses">
-                <div class="w-100">
-                    <h2 class="mb-5">Interesses</h2>
-                    <p class="acessibilidade">Fora do ambiente de trabalho, aproveito o meu tempo praticando exercícios físicos, como
-                        corrida, abdominal e flexão. Para relaxamento e distração, às vezes eu jogo games eletrônicos e assisto 
-                        filmes, pegadinhas e partidas de futebol, e aproveito a fauna e a flora do sítio dos meus avós.</p>
-                    <p class="acessibilidade" class="mb-0">Para o futuro, pretendo me tornar novamente um militar do Exército Brasileiro, agora, porém, da área
-                        de TI. Antes disso, considero como necessidade a expansão do meu conhecimento e de minha experiência
-                        profissional, não medindo esforços para alcançar este objetivo.</p>
-                        <br>
-                        <p class="acessibilidade">
-                            Para mais detalhes sobre mim, baixe o meu <a href="docs/Curriculo_Guilherme_Rocha.pdf" download>currículo</a>.
-                        </p>
-                </div>
-            </section>
 
             <hr class="m-0">
 
@@ -295,6 +278,13 @@ include_once 'menu.php';
                 <div class="w-100">
                     <h2 class="mb-5">Projetos</h2>
                     <ul class="fa-ul mb-0 acessibilidade">
+                        <li>
+                            <i class="fa-li fa fa-trophy text-warning"></i>
+                            <a href="p_iniciais/portal_UFVJM.php">Novo Portal Institucional da UFVJM</a>
+                        </li>
+                        <li> 
+                            <i class="fa-li fa fa-trophy text-warning"></i>
+                            <a href="p_iniciais/sistemaColegiadoSI.php">Sistema para o Colegiado do Curso de Sistemas de Informação</a></li>
                         <li> 
                             <i class="fa-li fa fa-trophy text-warning"></i>
                             <a href="p_iniciais/sistemaBD.php">Sistema de Gerenciamento de Cursos</a></li>

@@ -68,9 +68,7 @@
                     <li class="nav-item">
                         <a class=" nav-link js-scroll-trigger" href="https://guilhermerocha.tk/index.php#habilidades">Habilidades</a>
                     </li>
-                    <li class="nav-item">
-                        <a class=" nav-link js-scroll-trigger" href="https://guilhermerocha.tk/index.php#interesses">Interesses</a>
-                    </li>
+                    
                     <li class="nav-item">
                         <a class=" nav-link js-scroll-trigger" href="https://guilhermerocha.tk/index.php#projetos">Projetos</a>
                     </li>

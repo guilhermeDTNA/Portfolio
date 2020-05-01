@@ -2,9 +2,9 @@
 session_start();
 
 define('HOST', 'localhost');
-define('USUARIO', 'id8854008_guilhermedtna');
+define('USUARIO', 'id8854008_guilherme');
 define('SENHA', 'GNR*CAM');
-define('BD', 'id8854008_sistema');
+define('BD', 'id8854008_projetos');
 
 $conexao = mysqli_connect(HOST, USUARIO, SENHA, BD) or die ('Não foi possivel conectar');
  
