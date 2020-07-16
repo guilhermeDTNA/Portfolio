@@ -9,6 +9,9 @@
         })(window,document,'script','dataLayer','GTM-N5SH3FG');</script>
         <!-- End Google Tag Manager -->
         
+        <!-- Script para o LinkedIn -->
+        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+        
         
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -45,10 +48,12 @@
 
         <!-- Menu -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class=" d-block d-lg-none">Guilherme Rocha</span>
+            <a class="navbar-brand js-scroll-trigger" href="index.php" alt="Foto de perfil">
+                
+                <span class=" d-block d-lg-none">Guilherme Rocha Leite</span>
+                
                 <span class="d-none d-lg-block">
-                    <img title="Este sou eu" class="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://guilhermerocha.tk/img/profile3.jpg" alt="">
+                     <img title="Este sou eu" class="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://guilhermerocha.tk/img/profile3.jpg" alt=""> 
                 </span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

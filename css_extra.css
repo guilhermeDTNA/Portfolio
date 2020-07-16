@@ -1,5 +1,108 @@
 .mesmaLinha{
-   display:inline;
+ display:inline;
+}
+
+@media (min-width: 989px) {
+
+.perfil-inicio{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+}
+
+.texto-sobre{
+ flex:3;
+ border-style: groove;
+ border-width:1px;
+ border-color: grey;
+}
+
+.perfil-linkedin{
+ flex:2;
+ text-align:right;
+}
+
+.div-icones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.icone1{
+   flex:1;
+   margin-bottom:10px;
+   margin-top:10px;
+}
+
+.icone2{
+   flex:1;
+   margin-bottom:10px;
+   margin-top:10px;
+}
+
+.icone3{
+   flex:1;
+   margin-bottom:10px;
+   margin-top:10px;
+}
+
+.icone4{
+   flex:1;
+   margin-bottom:10px;
+   margin-top:10px;
+}
+
+.lattes{
+    border-radius: 15%;
+}
+
+}
+
+/*Para celular (retrato)*/
+@media (max-width: 989px) and (orientation:portrait){
+
+    .perfil-inicio{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+    }
+
+    .perfil-linkedin {    
+        flex:1; 
+        margin-top:25px;
+        width:100%;
+        text-align: center;
+        /*background-color: #0D5B05;*/
+    }
+
+    .perfil-inicio{
+        flex: 1;
+        width: 100%;
+    }
+}
+
+/*Para celular paisagem*/
+@media (max-width: 989px) and (orientation:landscape){
+  .perfil-inicio{
+        width:100%;
+        display:flex;
+        flex-direction:row;
+    }
+
+  .perfil-linkedin {    
+    position:relative;
+    width:35%;
+    float: right;
+
+    /*background-color: #0D5B05;*/
+}
+
+.perfil-inicio{
+    position: relative;
+    width: 65%;
+    margin-right: 10px;
+}
+
 }
 
 /*Alto contraste*/
