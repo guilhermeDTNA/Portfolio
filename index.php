@@ -102,11 +102,11 @@
 
     <div class="container-fluid p-0">
 
-        <section class="resume-section p-3  d-flex align-items-center acessibilidade" id="sobre">
+        <section class="resume-section p-3 d-flex align-items-center acessibilidade" id="sobre">
             <div class="w-100">
-                <h1 class=" mb-0"> Guilherme
+                <h2 class="acessibilidade mb-0"> Guilherme
                     <span class="text-primary">Rocha Leite</span>
-                </h1>
+                </h2>
 
                 <div class="acessibilidade subheading mb-4">Diamantina/MG ·  <i class="img-whats fab fa-whatsapp" title="Solicitar nº Whatsapp" onclick="redir()" ></i> · <a class="acessibilidade email-home" href="mailto:gleite98@gmail.com">gleite98@gmail.com</a>
 
@@ -129,27 +129,6 @@
 
 
             </div>
-<!--
-            <div class="div-icones social-icons acessibilidade">
-
-                <a class="icone1" href="https://github.com/guilhermeDTNA/" target="_blank">
-                    <i class="fab fa-github" title="GitHub"></i>
-                </a>
-                <br>
-                <a class="icone2" href="https://www.youtube.com/channel/UC28bAjWwKIosH8iZDhT1YEw" target="_blank">
-                    <i class="fab fa-youtube" title="YouTube"></i>
-                </a>
-                <br>
-                <a class="icone3" href="https://www.facebook.com/guilherme.rochaleite.9" target="_blank">
-                    <i class="fab fa-facebook-f" title="Facebook"></i>
-                </a>
-                <br>
-                <a class="icone4" href="http://lattes.cnpq.br/2493688556132767" target="_blank">
-                    <i class="fab " title="Lattes"><img class="lattes" src="img/lattes-1.jpg" width="25px" heigh="30px" ></i>
-                </a>
-
-        </div>
-    -->
 </section>
 </div>
 

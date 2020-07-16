@@ -2,54 +2,69 @@
  display:inline;
 }
 
+/*Para computador ou tablet*/
 @media (min-width: 989px) {
 
-.perfil-inicio{
-    width:100%;
-    display:flex;
-    flex-direction:row;
-}
+    /*Página inicial*/
+    .perfil-inicio{
+        width:100%;
+        display:flex;
+        flex-direction:row;
+    }
 
-.texto-sobre{
- flex:3;
- border-style: groove;
- border-width:1px;
- border-color: grey;
-}
+    .texto-sobre{
+     flex:3;
+     border-style: groove;
+     border-width:1px;
+     border-color: grey;
+ }
 
-.perfil-linkedin{
- flex:2;
- text-align:right;
-}
+ .perfil-linkedin{
+     flex:2;
+     text-align:right;
+ }
 
-.div-icones{
+ /*Página de contatos*/
+
+ .pagina-contatos{
     display: flex;
-    flex-direction: row;
-    margin-top: 40px;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
 
-.icone1{
-   flex:1;
-   margin-bottom:10px;
-   margin-top:10px;
+.componentes-mensagem{
+    flex: 6;
+    align-items: center;
+    justify-content: center;
 }
 
-.icone2{
-   flex:1;
-   margin-bottom:10px;
-   margin-top:10px;
+.redes-sociais{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 120px;
 }
 
-.icone3{
-   flex:1;
-   margin-bottom:10px;
-   margin-top:10px;
+.titulo-redes-sociais{
+    flex: 1;
+    margin-bottom: -10px;
+    margin-top: -20px;
+    width: 100%;
+    text-align: center;
 }
 
-.icone4{
-   flex:1;
-   margin-bottom:10px;
-   margin-top:10px;
+.icones-redes-sociais{
+    flex: 2;
+    display: flex;
+    flex-direction:row;
+    width: 40%;
+}
+
+.icone-rede-social{
+    padding: 25%;
+    flex: 1;
 }
 
 .lattes{
@@ -60,6 +75,22 @@
 
 /*Para celular (retrato)*/
 @media (max-width: 989px) and (orientation:portrait){
+
+    html, body{
+        height: 100%;
+        padding-top: 0px;
+    }
+
+    .subheading{
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    /*Página inicial*/
+    h2.mb-0{
+        font-size: 41px;
+    }
+
 
     .perfil-inicio{
         width:100%;
@@ -79,29 +110,152 @@
         flex: 1;
         width: 100%;
     }
+
+    /*Página de contatos*/
+
+    h2.mb-4{
+        font-size: 41px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .pagina-contatos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .componentes-mensagem{
+        flex: 7;
+        align-items: center;
+        justify-content: center;
+        width: 200%;
+    }
+
+    .tabela-contato{
+        margin-left: 0px;
+        width: 80%;
+        height: 40%;
+    }
+
+    .redes-sociais{
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200%;
+    }
+
+    .titulo-redes-sociais{
+        flex: 1;
+        width: 100%;
+        text-align: center;
+    }
+
+    .icones-redes-sociais{
+        flex: 2;
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+    }
+
+    .icone-rede-social{
+        padding: 25%;
+        flex: 1;
+    }
 }
 
 /*Para celular paisagem*/
 @media (max-width: 989px) and (orientation:landscape){
-  .perfil-inicio{
+
+    html, body{
+        height: 100%;
+        padding-top: 0px;
+    }
+
+    .subheading{
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    h2.mb-0{
+        font-size: 41px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .perfil-inicio{
         width:100%;
         display:flex;
         flex-direction:row;
+        position: relative;
+        width: 65%;
+        margin-right: 10px;
     }
 
-  .perfil-linkedin {    
-    position:relative;
-    width:35%;
-    float: right;
+    .perfil-linkedin {    
+        position:relative;
+        width:35%;
+        float: right;
 
-    /*background-color: #0D5B05;*/
-}
+        /*background-color: #0D5B05;*/
+    }
 
-.perfil-inicio{
-    position: relative;
-    width: 65%;
-    margin-right: 10px;
-}
+    /*Página de contatos*/
+
+    h2.mb-4{
+        font-size: 41px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .pagina-contatos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 200%;
+
+    }
+
+    .componentes-mensagem{
+        flex: 7;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .tabela-contato{
+        margin-left: 0px;
+        width: 80%;
+        height: 40%;
+    }
+
+    .redes-sociais{
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .titulo-redes-sociais{
+        flex: 1;
+        width: 100%;
+        text-align: center;
+    }
+
+    .icones-redes-sociais{
+        flex: 2;
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+    }
+
+    .icone-rede-social{
+        padding: 25%;
+        flex: 1;
+    }
 
 }
 
@@ -153,7 +307,7 @@
 }
 
 .contrast .email-home{
-    color: white !important;
+    color: yellow !important;
 }
 
 .contrast table{
