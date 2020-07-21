@@ -135,7 +135,7 @@ include_once 'menu.php';
 
 <section class="resume-section p-3 p-lg-5 d-flex justify-content-center acessibilidade" id="experiencia">
     <div class="w-100">
-        <h2 class="mb-5 titulos">Experiência</h2>
+        <h2 class="mb-5 ">Experiência</h2>
 
 
 
@@ -174,7 +174,7 @@ include_once 'menu.php';
 
 <section class="resume-section p-3 p-lg-5 d-flex align-items-center acessibilidade" id="educacao">
     <div class="w-100">
-        <h2 class="mb-5 titulos">Escolaridade</h2>
+        <h2 class="mb-5 ">Escolaridade</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="resume-content">
@@ -222,7 +222,7 @@ include_once 'menu.php';
 
 <section class="resume-section p-3 p-lg-5 d-flex align-items-center acessibilidade" id="habilidades">
     <div class="w-100">
-        <h2 class="mb-5 titulos">Habilidades</h2>
+        <h2 class="mb-5 ">Habilidades</h2>
 
         <div class="subheading mb-3 acessibilidade">Linguagens de Programação &amp; Ferramentas</div>
         <ul class="list-inline dev-icons">
@@ -277,7 +277,7 @@ include_once 'menu.php';
 
 <section class="resume-section p-3 p-lg-5 d-flex align-items-cente acessibilidader" id="projetos">
     <div class="w-100">
-        <h2 class="mb-5 titulos">Projetos Oficiais</h2>
+        <h2 class="mb-5 ">Projetos Oficiais</h2>
         <ul class="fa-ul mb-0 acessibilidade">
             <li>
                 <i class="fa-li fa fa-trophy text-warning"></i>

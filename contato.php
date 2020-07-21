@@ -78,7 +78,7 @@ include_once 'menu.php';
         <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
         <div class="w-100 pagina-contatos">
             <div class="componentes-mensagem">
-                <h2 class="titulo-contato mb-4 titulos">Envie uma mensagem</h2>
+                <h2 class="titulo-contato mb-4 titulos" style="font-size: 25px;">Envie uma mensagem</h2>
 
                 <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="resume-content">
@@ -86,7 +86,7 @@ include_once 'menu.php';
 
                         <form action="cadastra_mensagem.php" method="POST" enctype="multipart/form-data" name="formulario">
 
-                            <table class="acessibilidade tabela-contato" bgcolor="darksalmon" align=center border=2px height = 100 wdith= 200 cellspacing=5 cellpadding= 5>
+                            <table class="acessibilidade tabela-contato" bgcolor="darksalmon" align=center border=2px height = 100 width= 200 cellspacing=5 cellpadding= 5>
 
                                 <tr>
                                     <td>
@@ -128,7 +128,7 @@ include_once 'menu.php';
                             
                             
 
-                            <p align="center"><input id="botao-submit" class="acessibilidade" type="submit" name="BTEnvia" value="Enviar Mensagem"></p>
+                            <p align="center"><input class="botao-submit" id="botao-submit" class="acessibilidade" type="submit" name="BTEnvia" value="Enviar Mensagem"></p>
                         </form>
 
                     </div>
