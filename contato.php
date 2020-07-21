@@ -65,6 +65,9 @@ include_once 'menu.php';
 
         <script src="scripts_extra.js"></script>
         <link rel="stylesheet" type="text/css" href="css_extra.css">
+
+        <!--última Animação -->
+        <link href="https://fonts.googleapis.com/css?family=Teko:700&display=swap" rel="stylesheet">
         
     </head>
 
@@ -75,7 +78,7 @@ include_once 'menu.php';
         <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
         <div class="w-100 pagina-contatos">
             <div class="componentes-mensagem">
-                <h2 class="titulo-contato mb-4">Enviar uma mensagem</h2>
+                <h2 class="titulo-contato mb-4 titulos">Envie uma mensagem</h2>
 
                 <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="resume-content">
@@ -125,7 +128,7 @@ include_once 'menu.php';
                             
                             
 
-                            <p align="center"><input id="botao-submit" class="acessibilidade" type="submit" name="BTEnvia" value="Registrar Mensagem"></p>
+                            <p align="center"><input id="botao-submit" class="acessibilidade" type="submit" name="BTEnvia" value="Enviar Mensagem"></p>
                         </form>
 
                     </div>
@@ -134,7 +137,9 @@ include_once 'menu.php';
             <div class="redes-sociais social-icons acessibilidade">
 
                 <div class="titulo-redes-sociais">
-                    <h3>Visite meu perfil nas redes sociais:</h3>
+
+
+                    <h3 class="visitar-perfis"><span class='one'>V</span><span class='two'>i</span><span class='three'>s</span><span class='four'>i</span><span class='five'>t</span><span class='six'>e</span> <span class='seven'>m</span><span class='eight'>e</span><span class='nine'>u</span> <span class='ten'>p</span><span class='eleven'>e</span><span class='twelve'>r</span><span class='thirteen'>f</span><span class='fourteen'>i</span><span class='fifeteen'>l</span> <span class='sixteen'>n</span><span class='seventeen'>a</span><span class='eighteen'>s</span> <span class='nineteen'>r</span><span class='twenty'>e</span><span class='twenty-one'>d</span><span class='twenty-two'>e</span><span class='twenty-three'>s</span> <span class='twenty-four'>s</span><span class='twenty-five'>o</span><span class='twenty-six'>c</span><span class='twenty-eight'>i</span><span class='twenty-nine'>a</span><span class='thirty'>i</span><span class='thirty-one'>s</span>:</h3>
                     <br>
                 </div>
 

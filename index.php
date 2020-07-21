@@ -46,13 +46,8 @@
         }
     </script>
 
-    <style>
-
-
-
-    </style>
-
     <link type="text/css" rel="stylesheet" href="css_extra.css" >
+    
 
 </head>
 
@@ -104,9 +99,8 @@
 
         <section class="resume-section p-3 d-flex align-items-center acessibilidade" id="sobre">
             <div class="w-100">
-                <h2 class="acessibilidade mb-0"> Guilherme
-                    <span class="text-primary">Rocha Leite</span>
-                </h2>
+                <div class="titulo"> <h2 class="acessibilidade mb-0">  Guilherme Rocha Leite </h2> </div>
+                <br>
 
                 <div class="acessibilidade subheading mb-4">Diamantina/MG ·  <i class="img-whats fab fa-whatsapp" title="Solicitar nº Whatsapp" onclick="redir()" ></i> · <a class="acessibilidade email-home" href="mailto:gleite98@gmail.com">gleite98@gmail.com</a>
 
@@ -141,7 +135,7 @@ include_once 'menu.php';
 
 <section class="resume-section p-3 p-lg-5 d-flex justify-content-center acessibilidade" id="experiencia">
     <div class="w-100">
-        <h2 class="mb-5">Experiência</h2>
+        <h2 class="mb-5 titulos">Experiência</h2>
 
 
 
@@ -152,7 +146,7 @@ include_once 'menu.php';
                 <p class="acessibilidade">Como estagiário na Diretoria de Comunicação Social (Dicom), sou um dos 
                 responsáveis pela criação de toda documentação e sistema do novo portal institucional da Universidade Federal dos Vales Jequitinhonha e Mucuri (UFVJM).</p>
 
-                <p class="acessibilidade">O projeto foi necessário para atender às regras da nova Identidade Visual do Governo, a IDG 2.0. </p>
+                <p class="acessibilidade">O projeto foi necessário para atender às regras da nova Identidade Digital do Governo, a IDG 2.0. </p>
             </div>
             <div class="resume-date text-md-right">
                 <span class="text-primary">Fevereiro 2019 - Presente</span>
@@ -180,7 +174,7 @@ include_once 'menu.php';
 
 <section class="resume-section p-3 p-lg-5 d-flex align-items-center acessibilidade" id="educacao">
     <div class="w-100">
-        <h2 class="mb-5">Escolaridade</h2>
+        <h2 class="mb-5 titulos">Escolaridade</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="resume-content">
@@ -228,7 +222,7 @@ include_once 'menu.php';
 
 <section class="resume-section p-3 p-lg-5 d-flex align-items-center acessibilidade" id="habilidades">
     <div class="w-100">
-        <h2 class="mb-5">Habilidades</h2>
+        <h2 class="mb-5 titulos">Habilidades</h2>
 
         <div class="subheading mb-3 acessibilidade">Linguagens de Programação &amp; Ferramentas</div>
         <ul class="list-inline dev-icons">
@@ -256,6 +250,10 @@ include_once 'menu.php';
             <li class="list-inline-item">
                 <a href="https://www.joomla.org/" target="_blank"> <i class="fab fa-joomla" title="Joomla" ></i></a>
             </li>
+            <li class="list-inline-item">
+                <a href="https://reactjs.org/" target="_blank"> <i class="fab fa-react" title="ReactJS e React Native"></i></a>
+            </li>
+            
 
         </ul>
 
@@ -279,7 +277,7 @@ include_once 'menu.php';
 
 <section class="resume-section p-3 p-lg-5 d-flex align-items-cente acessibilidader" id="projetos">
     <div class="w-100">
-        <h2 class="mb-5">Projetos Oficiais</h2>
+        <h2 class="mb-5 titulos">Projetos Oficiais</h2>
         <ul class="fa-ul mb-0 acessibilidade">
             <li>
                 <i class="fa-li fa fa-trophy text-warning"></i>
@@ -298,7 +296,7 @@ include_once 'menu.php';
 
                     <br><br><br>
 
-                    <p>Para mais projetos, não oficiais e de caráter estudantil, visite <a href="https://github.com/guilhermeDTNA"> o meu Github</a>.  </p>
+                    <p style="font-size: 16px; font-color:black !important;" >Para mais projetos, não oficiais e de caráter estudantil, visite <a href="https://github.com/guilhermeDTNA"> o meu Github</a>.  </p>
                 </div>
             </section>
 
