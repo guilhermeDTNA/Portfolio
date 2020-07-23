@@ -57,9 +57,9 @@
     text-align: center;
 }
 
-.titulo-contato{
-    font-size: 50px;
-    text-align: center;
+
+.tabela-contato table td, tr{
+    font-size: 110%;
 }
 
 .titulo-redes-sociais{
@@ -78,6 +78,14 @@
 .icone-rede-social{
     padding: 25%;
     flex: 1;
+}
+
+.info-email{
+    padding-left: 50%;
+}
+
+.icone-info-email{
+    width: 8%;
 }
 
 .lattes{
@@ -128,10 +136,12 @@
                         /*transform: translate(50%,-50%);
                         /*text-transform: uppercase;*/
                         font-family: verdana;
-                        font-size: 16px;
+                        text-align: center;
+                        font-size: 40px;
                         font-weight: 700;
                         color: #5c321f;
                         text-shadow: 1px 1px 1px #acadad,
+
                         1px 2px 1px #acadad,
                         1px 3px 1px #acadad,
                         1px 4px 1px #acadad,
@@ -206,16 +216,6 @@
                                     /*background-color: #0D5B05;*/
                                 }
 
-                                .botao-submit{
-                                    margin-left: 73%;
-                                }
-
-                                .titulo-contato{
-                                    font-size: 25px; 
-                                    width: 100%; 
-                                    margin-left: 48%;
-                                }
-
                                 .perfil-inicio{
                                     flex: 1;
                                     width: 100%;
@@ -237,88 +237,104 @@
                                     width: 200%;
                                 }
 
+                                .botao-submit{
+                                    margin-left: 73%;
+                                }
+
                                 .titulo-contato{
-
+                                    font-size: 25px; 
+                                    width: 100%; 
+                                    margin-left: 48%;
                                 }
 
-                                .componentes-mensagem{
-                                    flex: 7;
-                                    align-items: center;
-                                    justify-content: center;
-                                    width: 100%;
+                                .info-email{
+                                    padding-left: 20%;
+                                    padding-bottom: 20%;
                                 }
 
-                                .tabela-contato{
-                                    width: 50%;
+                                .icone-info-email{
+                                    width: 8%;
                                 }
 
-                                .redes-sociais{
-                                    flex: 3;
-                                    display: flex;
-                                    flex-direction: column;
-                                    align-items: center;
-                                    width: 200%;
-                                }
 
-                                .titulo-redes-sociais{
-                                    flex: 1;
-                                    width: 100%;
-                                    text-align: center;
-                                }
+                              .componentes-mensagem{
+                                flex: 7;
+                                align-items: center;
+                                justify-content: center;
+                                width: 100%;
+                            }
 
-                                .icones-redes-sociais{
-                                    flex: 2;
-                                    display: flex;
-                                    flex-direction:row;
-                                    justify-content: center;
-                                }
+                            .tabela-contato{
+                                width: 50%;
+                            }
 
-                                .icone-rede-social{
-                                    padding: 25%;
-                                    flex: 1;
-                                }
+                            .redes-sociais{
+                                flex: 3;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                width: 200%;
+                            }
 
-                                .lattes{
-                                    border-radius: 15%;
-                                }
+                            .titulo-redes-sociais{
+                                flex: 1;
+                                width: 100%;
+                                text-align: center;
+                            }
 
-                                /*Animações com títulos*/
+                            .icones-redes-sociais{
+                                flex: 2;
+                                display: flex;
+                                flex-direction:row;
+                                justify-content: center;
+                            }
 
-                                /*Para o nome*/
-                                @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
-                                :root,
-                                .titulo h2{
-                                  /*color: #fff;*/
-                                  /*height: 100%;*/
-                                  /*overflow: hidden;*/
-                                  /*background: #333641;*/
-                                  display: flex;
-                                  align-items: center;
-                                  justify-content: center;
-                                  text-align: center;
-                              }
+                            .icone-rede-social{
+                                padding: 25%;
+                                flex: 1;
+                            }
 
-                              .titulo h2 {
-                                  background: 50% 100%/50% 50% no-repeat radial-gradient(ellipse at bottom, #337ab7, transparent, transparent);
-                                  -webkit-background-clip: text;
-                                  background-clip: text;
-                                  color: transparent;
-                                  font-size: 25px;
-                                  font-family: "Source Sans Pro", sans-serif;
-                                  animation: reveal 4000ms ease-in-out forwards 200ms; }
-                                  @keyframes reveal {
-                                      80% {
-                                        letter-spacing: 8px; }
-                                        100% {
-                                            background-size: 300% 300%; } }
-                                            @keyframes glow {
-                                              40% {
-                                                text-shadow: 0 0 8px #C55B21; } }
+                            .lattes{
+                                border-radius: 15%;
+                            }
+
+                            /*Animações com títulos*/
+
+                            /*Para o nome*/
+                            @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+                            :root,
+                            .titulo h2{
+                              /*color: #fff;*/
+                              /*height: 100%;*/
+                              /*overflow: hidden;*/
+                              /*background: #333641;*/
+                              display: flex;
+                              align-items: center;
+                              justify-content: center;
+                              text-align: center;
+                          }
+
+                          .titulo h2 {
+                              background: 50% 100%/50% 50% no-repeat radial-gradient(ellipse at bottom, #337ab7, transparent, transparent);
+                              -webkit-background-clip: text;
+                              background-clip: text;
+                              color: transparent;
+                              font-size: 25px;
+                              font-family: "Source Sans Pro", sans-serif;
+                              animation: reveal 4000ms ease-in-out forwards 200ms; }
+                              @keyframes reveal {
+                                  80% {
+                                    letter-spacing: 8px; }
+                                    100% {
+                                        background-size: 300% 300%; } }
+                                        @keyframes glow {
+                                          40% {
+                                            text-shadow: 0 0 8px #C55B21; } }
 
 
 
-                                                /*Para as seções*/
-                                                .titulos {
+                                            /*Para as seções*/
+                                            .titulos {
                         /*position: absolute;
                         top: 50%; 
                         right: 50%;*/
@@ -441,6 +457,15 @@
                                     font-size: 25px; 
                                     width: 100%; 
                                     margin-left: 48%;
+                                }
+
+                                .info-email{
+                                    padding-left: 50%;
+                                    padding-right: 20%;
+                                }
+
+                                .icone-info-email{
+                                    width: 2%;
                                 }
 
                                 .redes-sociais{

@@ -4,78 +4,89 @@ include_once 'menu.php';
 ?>
 
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        
-       <!-- Bootstrap  -->
-        <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
-        <script type="text/javascript" src="jquery.min.js" ></script>
-        <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="jquery.min.js" ></script>
+    <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 
 
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        
-         <!--  Formulário Google -->
-        <script src='https://www.google.com/recaptcha/api.js?hl=pt-BR'></script>
-        
-        <!--  Verificando o recaptcha -->
-        <script>
-    window.onload = function() {
-    var recaptcha = document.forms["formulario"]["g-recaptcha-response"];
-    recaptcha.required = true;
-    recaptcha.oninvalid = function(e) {
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--  Formulário Google -->
+    <script src='https://www.google.com/recaptcha/api.js?hl=pt-BR'></script>
+
+    <!--  Verificando o recaptcha -->
+    <script>
+        window.onload = function() {
+            var recaptcha = document.forms["formulario"]["g-recaptcha-response"];
+            recaptcha.required = true;
+            recaptcha.oninvalid = function(e) {
     // fazer algo, no caso to dando um alert
     alert("Por favor, marque a caixa 'Não sou um robô'.");
-      }
-   }
-   </script>
-        
+}
+}
+</script>
 
-        <!-- Custom fonts for this template -->
-        <link href="htttps://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-        <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
-        <!-- Custom styles for this template -->
-        <link href="css/resume.min.css" rel="stylesheet">
+<!-- Custom fonts for this template -->
+<link href="htttps://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
-        <link href="css/extras.css" rel="stylesheet" type="text/css">
-        
-        
-        <script language="JavaScript">
-            document.getElementById('botao').disabled = true;
-        </script>
-        
-        <title>Contato</title>
-        
-        <!--  Código do Google Analytcs -->
-        
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136244150-1"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+<!-- Custom styles for this template -->
+<link href="css/resume.min.css" rel="stylesheet">
 
-        gtag('config', 'UA-136244150-1');
-        </script>
+<link href="css/extras.css" rel="stylesheet" type="text/css">
 
-        <script src="scripts_extra.js"></script>
-        <link rel="stylesheet" type="text/css" href="css_extra.css">
+<!-- Desabilita o botão de enviar ao carregar a página -->
+<script language="JavaScript">
+    document.getElementById('botao').disabled = true;
+</script>
 
-        <!--última Animação -->
-        <link href="https://fonts.googleapis.com/css?family=Teko:700&display=swap" rel="stylesheet">
-        
-    </head>
+<!-- Exibir informação sobre tipo de e-mail -->
+<script type="text/javascript">
+    function verificaDispositivo(){
+        if (screen.width < 1024 || screen.height < 768) {
+    // sirva a versão pra celular
+    alert('Recomendo utilizar e-mails de domínios Gmail ou Hotmail para garantir que a mensagem será enviada');
+} 
+}
+</script>
 
-    <body >
 
-        <!--Conteúdo da página -->
+<title>Contato</title>
 
-        <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+<!--  Código do Google Analytcs -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136244150-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-136244150-1');
+</script>
+
+<script src="scripts_extra.js"></script>
+<link rel="stylesheet" type="text/css" href="css_extra.css">
+
+<!--última Animação -->
+<link href="https://fonts.googleapis.com/css?family=Teko:700&display=swap" rel="stylesheet">
+
+</head>
+
+<body >
+
+    <!--Conteúdo da página -->
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
         <div class="w-100 pagina-contatos">
             <div class="componentes-mensagem">
                 <h2 class="titulo-contato mb-4 titulos" style="font-size: 25px;">Envie uma mensagem</h2>
@@ -94,7 +105,9 @@ include_once 'menu.php';
                                         <font color="black"> Nome: </font><font color="#8B0000" size=4>*</font> <input type="text" placeholder="Nome" name="nome_autor" required>
                                     </td>
                                     <td>
-                                        <font color="black"> E-mail: </font><font color="#8B0000" size=4>*</font> <input type="email" placeholder="E-mail" name="email_autor" id="email_autor" required>
+                                        <font color="black"> E-mail: </font><font color="#8B0000" size=4>*</font> <font class="info-email" title="Recomendo utilizar e-mails de domínios Gmail ou Hotmail para garantir que a mensagem será enviada"> <img class="icone-info-email" src="img/info-email-1.png" width="8%" style="border-radius: 50%;" onclick="verificaDispositivo()" > </font>
+
+                                        <input type="email" placeholder="E-mail" name="email_autor" id="email_autor" required>
                                     </td>
                                     <td>
                                         <font color="black"> Telefone: </font> <input type="number" placeholder="Telefone" name="telefone_autor">
@@ -124,7 +137,7 @@ include_once 'menu.php';
                             
                             <div data-callback="" class="g-recaptcha acessibilidade" data-sitekey="6LfFaZUUAAAAACyi3cKv1Eo50m_cdc0PeXCy9qol"></div>
                             <br>
-               
+
                             
                             
 
@@ -139,7 +152,7 @@ include_once 'menu.php';
                 <div class="titulo-redes-sociais">
 
 
-                    <h3 class="visitar-perfis"><span class='one'>V</span><span class='two'>i</span><span class='three'>s</span><span class='four'>i</span><span class='five'>t</span><span class='six'>e</span> <span class='seven'>m</span><span class='eight'>e</span><span class='nine'>u</span> <span class='ten'>p</span><span class='eleven'>e</span><span class='twelve'>r</span><span class='thirteen'>f</span><span class='fourteen'>i</span><span class='fifeteen'>l</span> <span class='sixteen'>n</span><span class='seventeen'>a</span><span class='eighteen'>s</span> <span class='nineteen'>r</span><span class='twenty'>e</span><span class='twenty-one'>d</span><span class='twenty-two'>e</span><span class='twenty-three'>s</span> <span class='twenty-four'>s</span><span class='twenty-five'>o</span><span class='twenty-six'>c</span><span class='twenty-eight'>i</span><span class='twenty-nine'>a</span><span class='thirty'>i</span><span class='thirty-one'>s</span>:</h3>
+                    <h3 class="visitar-perfis acessibilidade"><span class='one'>V</span><span class='two'>i</span><span class='three'>s</span><span class='four'>i</span><span class='five'>t</span><span class='six'>e</span> <span class='seven'>m</span><span class='eight'>e</span><span class='nine'>u</span> <span class='ten'>p</span><span class='eleven'>e</span><span class='twelve'>r</span><span class='thirteen'>f</span><span class='fourteen'>i</span><span class='fifeteen'>l</span> <span class='sixteen'>n</span><span class='seventeen'>a</span><span class='eighteen'>s</span> <span class='nineteen'>r</span><span class='twenty'>e</span><span class='twenty-one'>d</span><span class='twenty-two'>e</span><span class='twenty-three'>s</span> <span class='twenty-four'>s</span><span class='twenty-five'>o</span><span class='twenty-six'>c</span><span class='twenty-eight'>i</span><span class='twenty-nine'>a</span><span class='thirty'>i</span><span class='thirty-one'>s</span>:</h3>
                     <br>
                 </div>
 
@@ -180,4 +193,4 @@ include_once 'menu.php';
         <!-- Custom scripts for this template -->
         <script src="js/resume.min.js"></script>
     </body>        
-</html>
+    </html>
