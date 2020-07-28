@@ -19,7 +19,7 @@
        flex:3;
        border-style: groove;
        border-width:1px;
-       border-color: grey;
+       border-color: transparent;
    }
 
    .texto-sobre p{

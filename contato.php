@@ -42,8 +42,6 @@ include_once 'menu.php';
 <!-- Custom styles for this template -->
 <link href="css/resume.min.css" rel="stylesheet">
 
-<link href="css/extras.css" rel="stylesheet" type="text/css">
-
 <!-- Desabilita o botão de enviar ao carregar a página -->
 <script language="JavaScript">
     document.getElementById('botao').disabled = true;
