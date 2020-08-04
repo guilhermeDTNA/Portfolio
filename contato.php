@@ -60,18 +60,6 @@ include_once 'menu.php';
 
 <title>Contato</title>
 
-<!--  Código do Google Analytcs -->
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136244150-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-136244150-1');
-</script>
-
 <script src="scripts_extra.js"></script>
 <link rel="stylesheet" type="text/css" href="css_extra.css">
 
