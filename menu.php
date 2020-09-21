@@ -101,12 +101,19 @@
 					<li class="nav-item">
 						<a class=" nav-link js-scroll-trigger" href="https://guilhermerocha.tk/index.php#sobre">Sobre</a>
 					</li>
+
 					<li class="nav-item">
 						<a class=" nav-link js-scroll-trigger" href="https://guilhermerocha.tk/index.php#experiencia">Experiência</a>
 					</li>
+
 					<li class="nav-item">
 						<a class=" nav-link js-scroll-trigger" href="https://guilhermerocha.tk/index.php#educacao">Escolaridade</a>
 					</li>
+
+					<li class="nav-item">
+						<a class=" nav-link js-scroll-trigger" href="https://guilhermerocha.tk/index.php#certificados">Certificações</a>
+					</li>
+
 					<li class="nav-item">
 						<a class=" nav-link js-scroll-trigger" href="https://guilhermerocha.tk/index.php#habilidades">Habilidades</a>
 					</li>
