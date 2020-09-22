@@ -89,6 +89,11 @@
         </nav>
     -->
 
+    <?php
+    include_once 'menu.php';
+
+    ?>
+
     <div class="container-fluid p-0">
 
         <section class="resume-section p-3 d-flex align-items-center acessibilidade" id="sobre">
@@ -108,6 +113,7 @@
                         <p class="acessibilidade">Para a minha vida, tenho como principal fonte de inspiração o ex-piloto Ayrton Senna e o meu avô Francisco, que, mesmo não estando mais aqui, ainda me mostram que o caminho para o sucesso deve se basear na honestidade e na dedicação.</p>
                     </div>
 
+
                     <div class="perfil-linkedin">
                         <div class="LI-profile-badge perfil-linkedin"  data-version="v1" data-size="medium" data-locale="pt_BR" data-type="vertical" data-theme="light" data-vanity="guilherme-rocha-leite"><a class="LI-simple-link" href='https://br.linkedin.com/in/guilherme-rocha-leite?trk=profile-badge' target="_blank">Guilherme Rocha Leite</a></div>
                     </div>
@@ -120,10 +126,7 @@
         </section>
     </div>
 
-    <?php
-    include_once 'menu.php';
-
-    ?>
+    
 
     <hr class="m-0">
 

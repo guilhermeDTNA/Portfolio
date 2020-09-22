@@ -1,5 +1,4 @@
 //Aumento/Diminuição de fonte
-
 function fonte(e) {
 
     var elemento = $(".acessibilidade");
