@@ -9,7 +9,7 @@ include_once './valida_login.php';
     <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <script type="text/javascript" src="jquery.min.js" ></script>
     <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-    <meta charset-"utf-8">
+    <meta charset="utf-8">
     </head>
     <body>
         
@@ -35,10 +35,10 @@ if ($tipo == 'aluno') {
     $sql = "call sp_dadosDiretor($id);";
     $query = $pdo->query($sql);
 } else if ($tipo == 'curso') {
-    $sql = "call sp_dadoscurso($id);";
+    $sql = "call sp_dadosCurso($id);";
     $query = $pdo->query($sql);
 } else if ($tipo == 'matricula') {
-    $sql = "call sp_dadosMatricula2($id);";
+    $sql = "call sp_dadosMatricula($id);";
     $query = $pdo->query($sql);
 } else if ($tipo == 'despesa') {
     $sql = "call sp_dadosDespesa($id);";
@@ -64,7 +64,7 @@ if ($tipo == 'curso') {
                 <td>
                     Nome curso: <input type="text"  name="nome" value="<?php echo $return['nome_' . $tipo] ?>">
                 </td>
-            <input type="hidden" name="id_registro" value="<?php echo $return['id_' . $tipo] ?>">
+            <input type="hidden" name="id_registro" value="<?php echo $id ?>">
 
             </tr>
 
@@ -97,7 +97,7 @@ if ($tipo == 'curso') {
                 <td>
                     Valor da despesa: <input type="number" name="valor_despesa"  value="<?php echo $return['valor_despesa'] ?>">
                 </td>
-            <input type="hidden" name="id_registro" value="<?php echo $return['id_' . $tipo] ?>">
+            <input type="hidden" name="id_registro" value="<?php echo $id ?>">
             </tr>
 
         </table>
@@ -113,7 +113,7 @@ if ($tipo == 'curso') {
                 <td>
                     ID aluno: <input type="text"  name="id_aluno" value="<?php echo $return['id_aluno'] ?>">
                 </td>
-            <input type="hidden" name="id_registro" value="<?php echo $return['id_' . $tipo] ?>">
+            <input type="hidden" name="id_registro" value="<?php echo $id ?>">
             </tr>
 
         </table
@@ -197,13 +197,15 @@ if ($tipo == 'curso') {
                     
                     <td></td>
                     
-                    <input type="hidden" name="id_registro" value="<?php echo $return['id_' . $tipo] ?>">
+                    <input type="hidden" name="id_registro" value="<?php echo $id ?>">
                 </tr>
 
             </table>
         
     <?php
 } else {
+    //echo $id;
+    //echo 'id_' . $tipo;
     ?>
 
 
@@ -278,7 +280,8 @@ if ($tipo == 'curso') {
                     </select>
 
                 </td>
-            <input type="hidden" name="id_registro" value="<?php echo $return['id_' . $tipo] ?>">
+
+            <input type="hidden" name="id_registro" value="<?php echo $id ?>">
 
             </tr>
 

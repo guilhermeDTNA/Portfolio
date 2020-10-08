@@ -15,7 +15,7 @@ $num_alunos = addslashes($_POST['num_alunos']);
 $mensalidade = addslashes($_POST['mensalidade']);
 
 try {
-$msql = "UPDATE `curso` SET `id_professor` = '$id_professor', `nome_curso` = '$nome', mensalidade = '$mensalidade' WHERE `id_curso` = $id_registro";
+$msql = "UPDATE curso SET id_professor = '$id_professor', nome_curso = '$nome', mensalidade = '$mensalidade' WHERE id_curso = $id_registro";
 $stmt = $pdo->prepare($msql);
 
 $stmt->bindParam($id_professor, addslashes($_REQUEST['id_professor']));
@@ -37,13 +37,14 @@ $valor_despesa = addslashes($_POST['valor_despesa']);
 
 
 try {
-$msql = "UPDATE `despesa` SET `id_diretor` = '$id_diretor', `nome_despesa` = '$nome', valor_despesa = '$valor_despesa' WHERE `id_despesa` = $id_registro";
+$msql = "UPDATE despesa SET id_diretor = '$id_diretor', nome_despesa = '$nome', valor_despesa = '$valor_despesa' WHERE id_despesa = $id_registro";
 $stmt = $pdo->prepare($msql);
 
 $stmt->bindParam($id_diretor, addslashes($_REQUEST['id_diretor']));
 $stmt->bindParam($nome, addslashes($_REQUEST['nome_despesa']));
 $stmt->bindParam($valor_despesa, addslashes($_REQUEST['valor_despesa']));
 $stmt->execute();
+
 
     echo "<script type=text/javascript>alert('Operação realizada com sucesso!');window.location='alterarDados.php?tipo=despesa'</script>";
 } catch (Exception $e) {
@@ -76,10 +77,13 @@ $stmt->execute();
 
 } elseif((addslashes($_POST['oTipo']) == 'diretor')){
 
-	if ($_POST['nivel']!="superuserroot"){
+    //Código para restrição para alterar diretores
+	
+    if ($_POST['nivel']!="superuserroot"){
         echo "<script type=text/javascript>alert('Você não tem permissão para realizar essa operação!');window.location='index.php'</script>";
         exit();
     }
+    
 
 $id_registro = addslashes($_POST['id_registro']);
 $nome = addslashes($_POST['nome_diretor']);
@@ -109,6 +113,7 @@ $estado = addslashes($_POST['estado']);
 try {
 
 // Create prepared statement
+    echo $id_registro;
 if((addslashes($_POST['oTipo']) == 'aluno')){
 $msql = "UPDATE aluno SET nome_aluno = '$nome', sobrenome_aluno = '$sobrenome', email_aluno = '$email', data_nasc = '$data_nasc', rua_aluno = '$rua', numero = '$numero', cidade_aluno = '$cidade', estado_aluno = '$estado' WHERE id_aluno = '$id_registro'";
 

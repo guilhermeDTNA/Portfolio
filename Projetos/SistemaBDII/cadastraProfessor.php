@@ -26,10 +26,12 @@ try {
     $stmt->bindParam(':salario', addslashes($_REQUEST['salario']));
     // Execute the prepared statement
     $stmt->execute();
-
     echo "<script type=text/javascript>alert('Operação realizada com sucesso!');window.location='addProfessor.php'</script>";
+
+    //echo"<script language='javascript' type='text/javascript'>window.location.href='./addprofessor.php';</script>";
 } catch (PDOException $e) {
     //die("ERROR: Could not able to execute $sql. " . $e->getMessage());
+
     echo "<script type=text/javascript>alert('Operação NÃO realizada!');window.location='addProfessor.php'</script>";
 }
 

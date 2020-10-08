@@ -29,16 +29,38 @@
             </ul>
             <br>
             <br>
+
+            <!--
             <form action="pesquisar.php?msg=<?php echo $tipo2 ?>" method="POST">
                 <?php
+                /*
                 if ($tipo2 == 'matricula') {
                     echo '<p align="center"> ID da ' . $tipo . ': <input type="text" name="nome" required="">';
                 } else {
                     echo '<p align="center"> Nome do(a) ' . $tipo . ': <input type="text" name="nome" required="">';
                 }
+                */
                 ?>
 
                 <input type="submit" value="Procurar" name="procurar"></p>
+            </form>
+            -->
+
+            <form action="pesquisar.php" method="POST">
+                <?php
+                
+                if ($tipo2 == 'matricula') {
+                    echo '<p align="center"> ID da ' . $tipo . ': <input type="text" name="nome" required="">';
+                } else {
+                    echo '<p align="center"> Nome do(a) ' . $tipo . ': <input type="text" name="nome" required="">';
+                    ?>
+                    <input type="hidden" value="<?php echo $tipo2 ?>" name="cargo">
+                    <?php
+                }
+                
+                ?>
+
+                <input type="submit" value="procurar" name="procurar"></p>
             </form>
 
             <br>
