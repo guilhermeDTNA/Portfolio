@@ -78,12 +78,12 @@ $stmt->execute();
 } elseif((addslashes($_POST['oTipo']) == 'diretor')){
 
     //Código para restrição para alterar diretores
-	
+	/*
     if ($_POST['nivel']!="superuserroot"){
         echo "<script type=text/javascript>alert('Você não tem permissão para realizar essa operação!');window.location='index.php'</script>";
         exit();
     }
-    
+    */
 
 $id_registro = addslashes($_POST['id_registro']);
 $nome = addslashes($_POST['nome_diretor']);

@@ -14,7 +14,8 @@
   <script type="text/javascript" src="jquery.min.js" ></script>
   <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
   
-
+  
+  
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -53,7 +54,6 @@
     </ul>
   </li>  
   <li class='active'><a href="gerenciar.php?tipo=despesa"><span>Gestão de despesas</span></a></li>    
-  <li class='active'><a href="https://www.guilhermerocha.tk"><span>Retornar ao portfolio</span></a></li> 
   <div class="logout">
     <a href="logout.php">Sair</a>
   </div> 
