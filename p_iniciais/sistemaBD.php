@@ -11,7 +11,7 @@ include_once '../menu.php';
         <meta name="author" content="">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <title>Portfolio - Guilherme Rocha Leite</title>
+        <title>Portfólio - Guilherme Rocha Leite</title>
 
         <!-- Bootstrap core CSS -->
         <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

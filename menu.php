@@ -70,6 +70,27 @@
 
 <script src="scripts_extra.js"></script>
 
+
+<!--  Código do Google Analytcs -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136244150-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-136244150-1');
+</script>
+
+<style>
+            .botao-altocontraste {
+                width: 210px;
+                height: 60px;
+            }
+
+        </style>
+
 </head>
 <body id="page-top">
 
@@ -122,14 +143,17 @@
 						<a class=" nav-link js-scroll-trigger" href="https://guilhermerocha.tk/index.php#projetos">Projetos</a>
 					</li>
 					<li class="nav-item">
+						<a class=" nav-link js-scroll-trigger" href="https://guilhermerocha.tk/index.php#eventos">Eventos</a>
+					</li>
+					<li class="nav-item">
 						<a class=" nav-link js-scroll-trigger" href="https://guilhermerocha.tk/contato.php">Contato</a>
 					</li>
-					<br><br>
+					<br>
 					<li class="nav-item">
 
-						<button class=" btn btn-dark">
+						<button class="botao-altocontraste btn btn-dark">
 
-							<a class="nav-link js-scroll-trigger" href="" id="altocontraste" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()"> <img src="https://guilhermerocha.tk/img/alto_contraste.png" width="30px">&nbsp Alto Contraste</a>
+							<a class="nav-link js-scroll-trigger" href="" id="altocontraste" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()"> <img src="https://guilhermerocha.tk/img/alto_contraste.png" width="28px">&nbsp<font size="2px">Alto Contraste</font></a>
 						</button>
 
 					</li>

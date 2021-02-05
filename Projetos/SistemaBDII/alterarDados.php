@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <script type="text/javascript" src="jquery.min.js" ></script>
     <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="redireciona_https.js"></script>
     </head>
 
     <body>
@@ -30,8 +31,9 @@
 
         <form action="update.php" method="POST"> 
             <p align="center"> Identificação (ID): <input type="text" name="id_a" required="">
-                <input type="submit" value="Procurar" name="procurar"></p>
                 <input type="hidden" name="tipo" value="<?php echo $_GET['tipo'] ?>">
+                <input type="submit" value="Procurar" name="procurar"></p>
+                
         </form>
 
         <?php if(isset($_POST['procurar'])){

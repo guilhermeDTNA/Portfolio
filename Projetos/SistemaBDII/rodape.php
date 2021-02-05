@@ -12,7 +12,7 @@
         include_once './valida_login.php';
         ?>
         <div class="rodape">
-            <p><center>@copyright GereCurso 2019</center></p>
+            <p><center>Copyright &copy; GereCurso 2019</center></p>
         </div>
     </body>
 </html>

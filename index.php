@@ -91,7 +91,6 @@
 
     <?php
     include_once 'menu.php';
-
     ?>
 
     <div class="container-fluid p-0">
@@ -107,10 +106,13 @@
 
                 <div class="perfil-inicio">
                     <div class="texto-sobre">
-                        <p class="acessibilidade">Nasci na manhã fria e diamantinense de 24 de fevereiro de 1998. Quando menino, eu queria ser médico. Não deu certo. Com o passar do tempo fui trilhando meu caminho na computação. </p>
+                        <p class="acessibilidade">Nasci na fria manhã de 24 de fevereiro de 1998. Quando menino, eu queria ser médico, não deu certo. Com o passar do tempo fui trilhando meu caminho na computação. </p>
                         <p class="acessibilidade">Fiz um curso de iniciação à computação na minha infância, depois de anos vieram um profissionalizante e um técnico ainda na área. Mas nem por isso deixei de lado as outras áreas, tendo concluído um curso básico de artes plásticas e um de brigada de incêndio. Deste, ainda tenho o diploma guardado numa pasta.</p>
                         <p class="acessibilidade">Aos 19 servi ao Exército, onde desempenhei diversas atividades, inclusive ligadas manutenção de software, e aprendi valores que não pretendo esquecer jamais. Atualmente, sou discente do 9º período do curso de Sistemas de Informação na UFVJM e estagiário na Diretoria de Comunicação Social.</p>
                         <p class="acessibilidade">Para a minha vida, tenho como principal fonte de inspiração o ex-piloto Ayrton Senna e o meu avô Francisco, que, mesmo não estando mais aqui, ainda me mostram que o caminho para o sucesso deve se basear na honestidade e na dedicação.</p>
+                        
+                        <br>
+                        <p class="acessibilidade">Para maiores detalhes, <a target="_blank" href="./Currículo - Guilherme Rocha Leite - Portfólio.pdf">faça o download do meu currículo</a>.</p>
                     </div>
 
 
@@ -312,6 +314,12 @@
                         <i class="fa-li fa fa-trophy text-warning"></i>
                         <a href="p_iniciais/portal_UFVJM.php">Novo Portal Institucional da UFVJM</a>
                     </li>
+                    
+                     <li>
+                        <i class="fa-li fa fa-trophy text-warning"></i>
+                        <a href="p_iniciais/consumo_api.php">Criação e Consumo de uma API</a>
+                    </li>
+                    
                     <li> 
                         <i class="fa-li fa fa-trophy text-warning"></i>
                         <a href="p_iniciais/sistemaColegiadoSI.php">Sistema para o Colegiado do Curso de Sistemas de Informação</a></li>
@@ -327,8 +335,34 @@
                             <p class="acessibilidade" style="font-size: 16px; font-color:black !important;" >Para mais projetos, não oficiais e de caráter estudantil, visite <a href="https://github.com/guilhermeDTNA"> o meu Github</a>.  </p>
                         </div>
                     </section>
+                    
+                    <hr class="m-0">
 
-                </div>
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center acessibilidade" id="eventos">
+            <div class="w-100">
+                <h2 class="mb-5 acessibilidade">Eventos oficiais organizados</h2>
+                
+                <p class="acessibilidade">
+                    Abaixo estão os eventos oficiais, abertos ao público, sobre tecnologia dos quais fui um dos organizadores. Caso deseje participar de uma futura edição, solicito que entre em contato.  
+                </p>
+                <br><br>
+                <ul class="fa-ul mb-0 acessibilidade">
+                    <li>
+                        <i class="fa-li fa fa-calendar aria-hidden="true" text-warning"></i>
+                        <a href="http://portal.ufvjm.edu.br/noticias/2019/curso-de-sistemas-de-informacao-apresenta-a-comunidade-diamantinense-tecnologias-que-colaboram" target="_blank">Tecnologias que Colaboram</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-calendar aria-hidden="true" text-warning"></i>
+                        <a href="https://www.instagram.com/uaidevmg/" target="_blank">Uaidev Talks - 1ª edição</a>
+                    </li>
+                     <li>
+                        <i class="fa-li fa fa-calendar aria-hidden="true" text-warning"></i>
+                        <a href="https://www.instagram.com/uaidevmg/" target="_blank">Uaidev Talks - 2ª edição</a>
+                    </li>
+            </div>
+        </section>
+
+    </div>
 
 
 

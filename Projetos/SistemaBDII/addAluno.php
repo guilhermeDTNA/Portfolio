@@ -13,15 +13,15 @@
     </head>
 <!--Teste Trabalho Banco de DadosII-->
     <body>
-        <?php
-        session_start();
-        include_once './valida_login.php';
-        ?>
-        <?php
-        include_once './topo.php';
-        ?>
-        <div class="titulo_opcoes">
-            <font color="black">Cadastra alunos
+    <?php
+    session_start();
+    include_once './valida_login.php';
+    ?>
+    <?php
+    include_once './topo.php';
+    ?>
+    <div class="titulo_opcoes">
+        <font color="black">Cadastra alunos
         </div>
 
         <form action="cadastraAluno.php" method="POST">
@@ -30,37 +30,37 @@
 
                 <tr>
                     <td>
-                        Nome: <input type="text" placeholder="Nome" name="nome_aluno">
+                        Nome: <input type="text" placeholder="Nome" name="nome_aluno" required="true">
                     </td>
                     <td>
-                        Sobrenome: <input type="text" placeholder="Sobrenome" name="sobrenome_aluno">
+                        Sobrenome: <input type="text" placeholder="Sobrenome" name="sobrenome_aluno" required="true">
                     </td>
                     <td>
-                        E-mail: <input type="email" placeholder="E-mail" name="email_aluno">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        Data de nascimento: <input type="date" placeholder="Data" name="data_nasc">
-                    </td>
-                    <td>
-                        Rua: <input type="text" placeholder="Rua" name="rua_aluno">
-                    </td>
-                    <td>
-                        Número: <input type="number" placeholder="Numero" name="numero">
+                        E-mail: <input type="email" placeholder="E-mail" name="email_aluno" required="true">
                     </td>
                 </tr>
 
                 <tr>
                     <td>
-                        Cidade: <input type="text" placeholder="Cidade" name="cidade_aluno">
+                        Data de nascimento: <input type="date" placeholder="Data" name="data_nasc" required="true" max="2004-01-01" min="1930-12-31">
+                    </td>
+                    <td>
+                        Rua: <input type="text" placeholder="Rua" name="rua_aluno" required="true">
+                    </td>
+                    <td>
+                        Número: <input type="number" placeholder="Numero" name="numero" required="true">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Cidade: <input type="text" placeholder="Cidade" name="cidade_aluno" required="true">
                     </td>
                     <td>
 
                     </td>
                     <td>
-                        Estado: <select name="estado_aluno" placeholder="Estado">
+                        Estado: <select name="estado_aluno" placeholder="Estado" required="true">
                             <option selected disabled="disabled">Estado</option>
                             <option value="AC">Acre</option>
                             <option value="AL">Alagoas</option>
@@ -101,5 +101,5 @@
             include_once './rodape.php';
             ?>
 
-    </body>
+        </body>
 </html>
